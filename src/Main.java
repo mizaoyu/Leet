@@ -4,7 +4,7 @@
 public class Main {
 
     public static void main(String [] args){
-        Q617 question = new Q617();
+        Q461 question = new Q461();
         question.entry();
     }
 

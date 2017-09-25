@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * Created by Misky on 9/24/2017.
  * Hamming Distance
@@ -17,6 +19,9 @@ public class Q461 {
     }
 
     public void entry(){
-        System.out.println(hammingDistance(1,100));
+        Scanner scanner = new Scanner(System.in);
+        int x = scanner.nextInt();
+        int y = scanner.nextInt();
+        System.out.println(hammingDistance(x,y));
     }
 }
